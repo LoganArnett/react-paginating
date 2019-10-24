@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PaginationItemProps<T extends HTMLElement = HTMLElement> = Omit<PaginationProps, 'children'> &
+export type PaginationItemProps<T extends HTMLElement = HTMLElement> = Omit<PaginationProps, 'children' | 'total'> &
   React.HTMLAttributes<T>;
 
 export interface PaginationState {
