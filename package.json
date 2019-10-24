@@ -70,8 +70,7 @@
     "test:flow:coverage": "flow-coverage-report",
     "validate": "npm run test:flow:coverage && CI=true npm run test",
     "cypress:open": "cypress open",
-    "prepare": "npm run build",
-    "postinstall": "npm run build --scripts-prepend-node-path"
+    "prepare": "npm run build --scripts-prepend-node-path"
   },
   "license": "MIT",
   "repository": {
