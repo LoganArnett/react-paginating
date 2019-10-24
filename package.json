@@ -69,7 +69,8 @@
     "test:flow": "flow",
     "test:flow:coverage": "flow-coverage-report",
     "validate": "npm run test:flow:coverage && CI=true npm run test",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "prepare": "npm run build"
   },
   "license": "MIT",
   "repository": {
